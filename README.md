@@ -27,5 +27,14 @@ Username: admin
 Password: 123  
 > Note: These are demo credentials for project testing only.
 
-5. Update DB credentials in code
-6. Run the project
+## Database Setup
+1. Open phpMyAdmin
+2. Create a database named `storefinal`
+3. Import `database/storefinal.sql`
+4. Update DB credentials in code
+
+```java
+jdbc:mysql://localhost/storefinal
+username-root
+password-""
+
