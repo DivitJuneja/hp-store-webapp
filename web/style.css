@@ -1,0 +1,422 @@
+*
+{
+     font-family: "Open Sans", sans-serif;
+     /* scroll-behavior: smooth; */
+}
+.fa-angle-up 
+{
+    font-size: 45px !important;
+    position: fixed;
+    right: 2%;
+    bottom: 8%;
+    z-index: 50;
+    transition: all 0.3s;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "Montserrat", sans-serif;
+}
+.ico
+{
+    color: rgb(15, 14, 6);
+}
+.navbar
+{
+    padding: 15px 0px;
+    transition: all 0.5s ease;
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,0.05);
+}
+.bs
+{
+    background-color: white !important;
+    color: #000 !important;
+     padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 0 !important;
+}
+.color
+{
+   background-color: rgb(247, 246, 246) !important; 
+}
+.transparent
+{
+    background-color: transparent !important;
+}
+.btn1
+{
+    background-color: black !important;
+    color: white !important;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 0 !important;
+}
+#a .btn
+{
+    border: 0;
+}
+.nav-item a:hover
+{
+    color: rgb(0, 0, 0) !important;
+    background-color: white;
+    border-radius: 7px;
+
+}
+.btn-contact:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.nav-link
+{
+    font-size: 1.2em !important;
+    margin-right: 10px;
+    transition: all 0.4s ease-in-out;
+}
+.dropdown-menu a 
+{
+    text-decoration: none;
+    color: black;
+    padding-left: 26px;
+    box-sizing: border-box;
+}
+.dropdown-menu a:hover
+{
+    color: rgb(209, 46, 10) !important;
+}
+.container
+{
+    width: 1200px;
+}
+/* navbar closed */
+.carousel-item img
+{
+    object-fit: cover; /* crop instead of squish */
+    height: 595px; /* fill container */
+}
+.carousel-caption
+{
+    color: white ;
+    position: absolute !important;
+    top: 40%;
+    text-align: center !important;
+} 
+.carousel-caption h2
+{
+    font-size: 2.6em;
+    font-weight: 600;
+}
+.carousel-caption p
+{
+    font-size: 1.5em;
+}
+.carousel-indicators button
+{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius:100%; 
+    margin-right: 10px !important;   
+    line-height: 40px !important;
+} 
+/* carousel css close */
+.btn2
+{
+    color: rgb(15, 15, 15) !important;
+    border: 1px solid black;
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: all 0.3s;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn2:hover
+{
+    background-color: black;
+    color: white !important; 
+    border: 0;
+}
+/* about css close */
+.card img
+{
+    height: 250px !important;
+    width: 100%;
+    object-fit: cover;
+}
+.hding
+{
+    font-size: 2.6em;
+    font-weight: 600;
+}
+#services h3
+{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#services .fa-solid
+{
+    font-size: 2em;
+}
+#services .qq
+{
+    overflow: hidden;
+}
+#services .card img
+{
+    transition: all 1.2s ease;
+    transform: scale(1);
+    width: 100%;
+}
+#services .card:hover img
+{
+    transform: scale(1.1);
+}
+/* services css closed */
+#laptop h3
+{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+#laptop .qq,#homelaptops .qq
+{ 
+    overflow: hidden;
+}
+#laptop .card,#homelaptops .card
+{
+    border: 2px solid white;
+    padding: 10px;
+    overflow: hidden;
+}
+#laptop .card img,#homelaptops .card img
+{
+    transform: scale(1);
+    transition: all 1s ease;
+    width: 100%;
+}
+#laptop .card:hover img
+{
+    transform: scale(1.1);
+}
+#laptop .card:hover,#homelaptops .card:hover
+{
+    border: 2px solid black; 
+}
+
+#laptop a
+{
+    text-decoration: none;
+}
+/* laptop closed */
+.highlight a 
+{
+    text-decoration: none;
+    color:white;
+}
+.highlight a:hover 
+{
+    color:rgb(179, 38, 38);
+}
+/* contact closed */
+#homelaptops .card a
+{
+    border: 0;
+}
+/* home laptops closed */
+/* Equal Heights for OwlCarousel 2 */
+.owl-carousel 
+{
+	.owl-stage 
+    {
+		display: flex;
+	}
+	.owl-item 
+    {
+		display: flex;
+		flex: 1 0 auto;
+	}
+	.thumbnail
+    {
+        padding: 5px;
+		display: flex;
+		flex-direction: column;
+		margin: 0 15px;
+		.caption 
+        {
+			display: flex;
+			flex: 1 0 auto;
+			flex-direction: column;
+			.flex-text 
+            {
+				flex-grow: 1;
+			}
+		}
+	}
+}
+/* owl-carousel closed */
+#printerss .card
+{
+    background-color: rgb(247, 245, 245);
+    padding: 10px;
+}
+.qp 
+{
+  overflow: hidden;
+  position: relative;
+}
+.qp img 
+{
+  transition: all 1s ease;
+  transform: scale(0.95);
+}
+.qp:hover img 
+{
+  transform: scale(1.1);
+}
+.effect
+ {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px;
+  transform: scale(0);
+  transition: all 0.6s ease;
+}
+.qp:hover .effect 
+{
+  transform: scale(1);
+}
+
+.btn1:hover {
+  transform: translateY(-3px);
+  background-color: #003366;
+}
+/* printers closed */
+#pc img
+{
+    height: 90vh;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+}
+/* pc closed */
+.aaa img
+{
+    height: 307px;
+    width: 546px;
+    object-fit: cover;
+}
+#outlet a
+{
+    text-decoration: none;
+    color: black;
+}
+#outlet a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+/* contact us */
+/*advance java*/
+form {
+    width: 350px;
+    margin: auto;
+}
+.in
+{
+    margin-top: 25px;
+    display: block;
+    outline: none;
+    padding: 10px 20px;
+    width: 350px;
+    background: #eeeeee;
+    
+}
+.out
+{
+     margin-top: 25px;
+    display: block;
+    outline: none;
+    padding: 10px 20px;
+    width: 350px;
+    background: white;
+}
+@media  only screen and (max-width:991px) /*for medium devices*/
+{
+    .navbar-toggler
+    {
+        background-color: rgb(247, 245, 245) !important;
+        border: 0;
+        box-shadow: none !important;
+    }
+    .navbar-toggler span
+    {
+        background-image: url(images/bars.svg);
+    }
+    .navbar .btn1 
+    {
+        display: none;
+    }
+    .navbar-nav .nav-link
+    {
+        line-height: 35px;
+    }
+    /* navbar closed */
+    .carousel-item img
+    {
+        height: 610px;
+    }
+    .carousel-caption h2
+    {
+        font-size: 2em;
+        font-weight: 600;
+    }
+    .carousel-caption p
+    {
+        font-size: 1.2em;
+    }
+    /* carousel closed */
+}
+@media  only screen and (max-width:768px)
+{
+    .navbar-toggler
+    {
+        background-color: white !important;
+        border: 0;
+        box-shadow: none !important;
+    }
+    .carousel-item img
+    {
+        height: 600px;
+    }
+    .carousel-caption h2
+    {
+        font-size: 1.7em;
+        font-weight: 600;
+    }
+    .carousel-caption p
+    {
+        font-size: 1em;
+    } 
+    .container
+    {
+        width: auto;
+    }
+    .navbar .container
+    {
+        width: 1200px;
+    }
+}
